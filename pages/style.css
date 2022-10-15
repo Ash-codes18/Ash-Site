@@ -1,0 +1,9 @@
+body {background-color: rgb(5, 27, 34);}
+  
+  p {color: bisque;
+    margin-left: 20px;
+    font-size: xx-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-variant: small-caps;}
+  
+  hr,br {color: aquamarine;}
