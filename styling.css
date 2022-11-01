@@ -1,0 +1,41 @@
+body{background-color: rgb(16, 19, 26);}
+u.res{color: rgb(232, 156, 156); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+hr{color: rgb(55, 143, 170); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+p.intro{color: bisque; font-size: 27px;}
+th, td {
+  border: 2px solid azure;
+  border-radius: 10px;
+ color: bisque;
+font-size: 27px;
+align-items: center;
+}
+a:link {
+    color: rgb(194, 220, 194);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(255, 108, 133);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(72, 225, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  img {
+    border: 10px solid rgb(153, 231, 234);
+  } 
+  h1{color: rgb(177, 203, 123); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+  p.content{color: powderblue; font-size: 25px;}
+  h2{color: burlywood;}
+  li{color: powderblue; font-size: 20px;}
