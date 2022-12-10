@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+        body{background-color:rgb(18, 15, 31) ;}
+    div {background: linear-gradient(360deg, rgb(237, 132, 243), rgb(223, 222, 222));
+      }
+      h1 {
+        color: rgb(31, 31, 26);
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      u { 
+        color: rgb(14, 55, 14);
+      }
+
+      p {
+        color: crimson;
+        font-size: x-large;
+      }
+       {
+        color: aquamarine;
+        border: 3px solid;
+        padding: 30px;
+        margin: 20px;
+      }
+      label {
+        color: cornflowerblue;
+      }
+      section {
+        color: cadetblue;
+        border: 3px solid;
+        padding: 30px;
+        margin: 20px;
+        font-size: 15px;
+      }
+      .button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #009371;
+  border: none;
+  color: #000000;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;}
+    a:hover{color: rgb(255, 255, 255);}
+    a:visited{color: rgb(163, 0, 84);}
+    </style>
+    <title>Extracurricular activities form</title>
+  </head>
+  <body>
+    <form>
+      <center>
+        <div><u><h1>Interests</h1></u></div>
+      </center>
+      <section>
+        <p>Which hostel do you reside in:</p>
+
+        <label for="hostel">
+          <input type="radio" name="ho" value="BH-1" id="hostel" />BH-1
+        </label>
+        <label for="hostel2">
+          <input type="radio" name="ho" value="BH-2" id="hostel2" />BH-2
+        </label>
+        <label for="hostel3">
+          <input type="radio" name="ho" value="BH-3" id="hostel3" />BH-3
+        </label>
+        <label for="hostel4">
+          <input type="radio" name="ho" value="BH-4" id="hostel4" />BH-4
+        </label>
+        <label for="hostel5">
+          <input type="radio" name="ho" value="BH-5" id="hostel5" />BH-5
+        </label>
+        <label for="hostel6">
+          <input type="radio" name="ho" value="BH-6" id="hostel6" />BH-6
+        </label>
+        <label for="hostel7">
+          <input type="radio" name="ho" value="BH-7" id="hostel7" />BH-7
+        </label>
+        <label for="hostel8">
+          <input type="radio" name="ho" value="BH-8" id="hostel8" />BH-8
+        </label>
+      </section>
+      <section>
+        <p>Which floor is your room in:</p>
+        <label for="fl1">
+          <input type="radio" name="floor" value="floor1" id="fl1" />1st Floor
+        </label>
+        <label for="fl2">
+          <input type="radio" name="floor" value="floor1" id="fl2" />2nd Floor
+        </label>
+        <label for="fl3">
+          <input type="radio" name="floor" value="floor1" id="fl3" />3rd Floor
+        </label>
+        <label for="fl4">
+          <input type="radio" name="floor" value="floor1" id="fl4" />4th Floor
+        </label>
+        <label for="fl5">
+          <input type="radio" name="floor" value="floor1" id="fl5" />5th Floor
+        </label>
+        <label for="fl6">
+          <input type="radio" name="floor" value="floor1" id="fl6" />6th Floor
+        </label>
+        <label for="fl7">
+          <input type="radio" name="floor" value="floor1" id="fl7" />7th Floor
+        </label>
+        <label for="fl8">
+          <input type="radio" name="floor" value="floor1" id="fl8" />8th Floor
+        </label>
+        <label for="fl9">
+          <input type="radio" name="floor" value="floor1" id="fl9" />9th Floor
+        </label>
+      </section>
+      <section>
+        <p>Which block do you reside in:</p>
+        <label for="blocka">
+          <input type="radio" name="block" value="blockA" id="blocka" />Block-A
+        </label>
+        <label for="blockb">
+          <input type="radio" name="block" value="blockB" id="blockb" />Block-A
+        </label>
+        <label for="blockc">
+          <input type="radio" name="block" value="blockC" id="blockc" />Block-A
+        </label>
+      </section>
+      <section>
+        <label for="room">
+            <p>Provide your room no:</p>
+            <input type="" placeholder="Enter your room no..." id="room">
+        </label>
+      </section>
+    </form>
+    <center><button class="button" style="vertical-align:middle"><span><a href="6thnov.html
+        "> Submit </a></span></button></center>
+  </body>
+</html>
