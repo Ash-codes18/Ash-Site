@@ -35,6 +35,7 @@ A Website Built using HTML, CSS, Tailwind CSS and Javascript. It contains all th
 # Demo
 
 <img src="images\d1.png">
+<img src="images\d11.png">
 <img src="images\d2.png">
 <img src="images\d3.png">
 <img src="images\d4.png">
@@ -56,7 +57,7 @@ A Website Built using HTML, CSS, Tailwind CSS and Javascript. It contains all th
 
 To install **Ash's Site**, follow these steps:
 
-> [Fork the repository](https://github.com/Ash-codes18/Ash-site/fork) 
+> [Fork the repository](https://github.com/Ash-codes18/Ash-Site/fork) 
 
 Linux and macOS:
 
