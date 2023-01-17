@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About me</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: rgba(189, 187, 183, 0.29);
+    }
+
+    header {
+      z-index: 999;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 140px;
+      transition: 0.5s ease;
+    }
+
+    header .brand {
+      color: rgb(0, 0, 0);
+      font-size: 1.5em;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    header .navigation {
+      position: relative;
+    }
+
+    header .navigation .navigation-items a {
+      position: relative;
+      color: rgb(0, 0, 0);
+      font-size: 1em;
+      font-weight: 500;
+      text-decoration: none;
+      margin-left: 30px;
+      transition: 0.3s ease;
+    }
+
+    header .navigation .navigation-items a:before {
+      content: '';
+      position: absolute;
+      background: rgb(33, 87, 104);
+      width: 0;
+      height: 3px;
+      bottom: 0;
+      left: 0;
+      transition: 0.3s ease;
+    }
+
+    header .navigation .navigation-items a:hover:before {
+      width: 100%;
+    }
+
+    .cv {
+      position: absolute;
+      top: 54px;
+      /* width:100%; */
+      margin: 6%;
+      border-radius: 28px;
+      overflow: hidden;
+      box-shadow: 10px 10px 110px 10px;
+    }
+
+    .cv-pic {
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+    <a href="index.html">
+    <img src="/images/ash-codes.png" height="80px" width="130px" class="logo">
+</a>
+    <header>
+        <a href="#" class="brand">Ashmit's Codes</a>
+    <div class="menu-btn"></div>
+    <div class="navigation">
+      <div class="navigation-items">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="webpages.html">Webpages</a>
+       <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </header>
+  <hr>
+  <div class="cv">
+    <img src="https://raw.githubusercontent.com/Ash-codes18/CV/main/cv.jpg" class="cv-pic">
+  </div>
+
+
+
+</body>
+
+</html>
