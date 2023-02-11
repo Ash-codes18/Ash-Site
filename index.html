@@ -3,9 +3,10 @@
 
 <head>
   <script src="https://cdn.tailwindcss.com"></script>
-  <script src="main.js"></script>
-  <script src="sound.js"></script>
-  <script src="improved_sound.js"></script>
+  <!-- <script src="main.js"></script> -->
+  <!-- <script src="sound.js"></script> -->
+  <!-- <script src="improved_sound.js"></script> -->
+  <script src="Music_player.js"></script>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <link rel="shortcut icon" href="images/log.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -25,12 +26,6 @@
         <a class="mr-5 hover:text-white" href="about.html" target="_blank">About</a>
         <a class="mr-5 hover:text-white" href="webpages.html">Webpages</a>
         <a class="mr-5 hover:text-white" href="contact.html">Contact</a>
-        <!-- <a class="mr-5 hover:text-white" href="contact.html">Music Enable/Disble</a>  -->
-        <!-- <button onclick="toggleMuted()"> -->
-          <!-- <audio id="audio-element" src="music/theme1.m4a"></audio>
-          <button id="toggle-button">
-          <img src="https://readme-typing-svg.demolab.com?font=Marck+Script&duration=4500&pause=102500&color=22C55E&center=true&vCenter=true&width=435&lines=Click+here+to+Enable%2FDisable+Music" alt="Typing SVG" />
-        </button> -->
         <audio id="audio-element" src="music/theme1.m4a"></audio>
         <button id="toggle-button">
           <img class="play-icon" src="https://readme-typing-svg.demolab.com?font=Marck+Script&duration=4500&pause=102500&color=22C55E&center=true&vCenter=true&width=435&lines=Click+here+to+Enable+Music" alt="Typing SVG" style="display: inline;" />
@@ -54,25 +49,6 @@
             }
           });
         </script>
-        <!-- <script>
-          const audioElement = document.getElementById("audio-element");
-          const toggleButton = document.getElementById("toggle-button");
-          
-          toggleButton.addEventListener("click", () => {
-            if (audioElement.paused) {
-              toggleButton.textContent = "Playing;
-              audioElement.play();
-            } else {
-              toggleButton.textContent = "Paused";
-              audioElement.pause();
-            }
-          });
-        </script> -->
-
-        <!-- </button> -->
-        <!-- <audio controls autoplay muted loop hidden id="sound">
-          <source src="music/theme1.m4a   ">
-        </audio> -->
       </nav>
       <button class="inline-flex items-center bg-red-800 border-0 py-1 px-3 focus:outline-none hover:bg-red-700 rounded text-base mt-4 md:mt-0"><a
           href="https://www.w3schools.com/html/" target="_blank"> Explore HTML</a>
