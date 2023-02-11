@@ -20,6 +20,29 @@
         <a class="mr-5 hover:text-white" href="about.html" target="_blank">About</a>
         <a class="mr-5 hover:text-white" href="webpages.html">Webpages</a>
         <a class="mr-5 hover:text-white" href="contact.html">Contact</a>
+        <audio id="audio-element" src="music/theme1.m4a"></audio>
+        <button id="toggle-button">
+          <img class="play-icon" src="https://readme-typing-svg.demolab.com?font=Marck+Script&duration=4500&pause=102500&color=22C55E&center=true&vCenter=true&width=435&lines=Click+here+to+Enable+Music" alt="Typing SVG" style="display: inline;" />
+          <img class="pause-icon" src="https://readme-typing-svg.demolab.com?font=Marck+Script&duration=4500&pause=102500&color=22C55E&center=true&vCenter=true&width=435&lines=Pause" alt="Typing SVG" style="display: none;" />
+        </button>
+        <script>
+          const audioElement = document.getElementById("audio-element");
+          const toggleButton = document.getElementById("toggle-button");
+          const playIcon = document.querySelector(".play-icon");
+          const pauseIcon = document.querySelector(".pause-icon");
+          
+          toggleButton.addEventListener("click", () => {
+            if (audioElement.paused) {
+              playIcon.style.display = "none";
+              pauseIcon.style.display = "inline-block";
+              audioElement.play();
+            } else {
+              playIcon.style.display = "inline-block";
+              pauseIcon.style.display = "none";
+              audioElement.pause();
+            }
+          });
+        </script>
       </nav>
       <button class="inline-flex items-center bg-red-800 border-0 py-1 px-3 focus:outline-none hover:bg-red-700 rounded text-base mt-4 md:mt-0"><a href="https://www.w3schools.com/html/" target="_blank"> Explore HTML</a>
         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">

@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <style>
+      .audio-player {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="audio-player">
+      <audio id="audio-element" src="music/theme1.m4a"></audio>
+      <button id="toggle-button">
+        <img id="play-icon" src="images/Anime Original 3780 x 2598.jpg" style="display: inline;">
+        <img id="pause-icon" src="images/Anime Original 2160 x 1080.jpg" style="display: none;">
+      </button>
+    </div>
+    
+    <script>
+      const audioElement = document.getElementById("audio-element");
+      const toggleButton = document.getElementById("toggle-button");
+      const playIcon = document.getElementById("play-icon");
+      const pauseIcon = document.getElementById("pause-icon");
+      
+      toggleButton.addEventListener("click", () => {
+        if (audioElement.paused) {
+          playIcon.style.display = "none";
+          pauseIcon.style.display = "inline";
+          audioElement.play();
+        } else {
+          playIcon.style.display = "inline";
+          pauseIcon.style.display = "none";
+          audioElement.pause();
+        }
+      });
+    </script>
+  </body>
+</html>
