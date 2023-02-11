@@ -4,6 +4,7 @@
 <head>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="main.js"></script>
+  <script src="sound.js"></script>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <link rel="shortcut icon" href="images/log.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -23,6 +24,13 @@
         <a class="mr-5 hover:text-white" href="about.html" target="_blank">About</a>
         <a class="mr-5 hover:text-white" href="webpages.html">Webpages</a>
         <a class="mr-5 hover:text-white" href="contact.html">Contact</a>
+        <!-- <a class="mr-5 hover:text-white" href="contact.html">Music Enable/Disble</a>  -->
+        <button onclick="toggleMuted()">
+          <img src="https://readme-typing-svg.demolab.com?font=Marck+Script&duration=4500&pause=102500&color=22C55E&center=true&vCenter=true&width=435&lines=Click+here+to+Enable%2FDisable+Music" alt="Typing SVG" />
+        </button>
+        <audio controls loop hidden id="sound">
+          <source src="https://soundcloud.com/user-215864557/theme?si=bf82b849e9a1472c9685e74a26c07436&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" type="audio/mpeg">
+        </audio>
       </nav>
       <button
         class="inline-flex items-center bg-red-800 border-0 py-1 px-3 focus:outline-none hover:bg-red-700 rounded text-base mt-4 md:mt-0"><a
@@ -36,11 +44,14 @@
   </header>
   <hr>
   <section class="text-gray-400 bg-gray-900 body-font">
+    <div align="right">
+    <!-- <iframe width="71" height="75" scrolling="no" frameborder="Yes" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1444764334&color=%2322c55e&auto_play=true&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=True"></iframe> -->
+  </div>
     <br>
     <br>
     <br>
     <center>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Caveat&weight=600&size=100&duration=3500&pause=1200&center=true&vCenter=true&width=1080&height=100&lines=Hey there! %2C+I'm+Ashmit;I'm+a+Software+Engineer+"alt="Typing SVG" align="center" /></a>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Caveat&weight=600&size=100&duration=3500&pause=1200&center=true&vCenter=true&width=1080&height=100&lines=Hey there! %2C+I'm+Ashmit;I'm+a+Software+Engineer+"alt="Typing SVG" align="center" />  </a>
   </center>
   <div class="halua">
     <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
